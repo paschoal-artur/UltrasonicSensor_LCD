@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/arturpaschoal/SensorUltrasonicoComDisplayLCD/build/CMakeFiles/bootloader
+/home/arturpaschoal/SensorUltrasonicoComDisplayLCD/build/CMakeFiles/bootloader.rule
+/home/arturpaschoal/SensorUltrasonicoComDisplayLCD/build/CMakeFiles/bootloader-complete.rule
+/home/arturpaschoal/SensorUltrasonicoComDisplayLCD/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/arturpaschoal/SensorUltrasonicoComDisplayLCD/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/arturpaschoal/SensorUltrasonicoComDisplayLCD/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/arturpaschoal/SensorUltrasonicoComDisplayLCD/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/arturpaschoal/SensorUltrasonicoComDisplayLCD/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/arturpaschoal/SensorUltrasonicoComDisplayLCD/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/arturpaschoal/SensorUltrasonicoComDisplayLCD/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
