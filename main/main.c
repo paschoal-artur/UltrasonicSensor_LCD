@@ -35,7 +35,7 @@ void configura_lcd(){
     lcd_begin(&lcd);
     lcd_backlight(&lcd);
 }
-
+=
 void teste_ultrasom (void *pvParameters)
 {
     ultrasonic_sensor_t sensor  = {
