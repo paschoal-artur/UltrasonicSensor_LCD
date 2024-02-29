@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <driver/i2c.h>
+#include <driver/i2c_master.h>
 #include <freertos/FreeRTOS.h>
 #include <freertos/task.h>
 #include <sdkconfig.h>
@@ -17,10 +17,8 @@
 #define PINO_TRIGGER GPIO_NUM_5
 #define PINO_ECHO GPIO_NUM_18
 
-lcd_t lcd; //!Variável global
-
-void configura_lcd(){
-    lcd = {
+lcd_t configura_lcd(){
+    lcd_t lcd = {
         .rows = LCD_NUM_ROWS,
         .cols = LCD_NUM_COLS,
         .addr = LCD_ADDR,
@@ -33,8 +31,9 @@ void configura_lcd(){
     i2c_init(&lcd);
     lcd_begin(&lcd);
     lcd_backlight(&lcd);
+    return lcd;
 }
-=
+
 void teste_ultrasom (void *pvParameters)
 {
     ultrasonic_sensor_t sensor  = {
