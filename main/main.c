@@ -18,10 +18,10 @@
 #define PINO_TRIGGER GPIO_NUM_5
 #define PINO_ECHO GPIO_NUM_18
 
-lcd_t lcd;
+lcd_t lcd; //!Variável global
 
 void configura_lcd(){
-    lcd_t lcd = {
+    lcd = {
         .rows = LCD_NUM_ROWS,
         .cols = LCD_NUM_COLS,
         .addr = LCD_ADDR,
