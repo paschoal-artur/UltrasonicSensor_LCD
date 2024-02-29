@@ -8,7 +8,6 @@
 #include <ultrasonic.h>
 #include <stdbool.h>
 
-#define FLOW_SENSOR_PIN GPIO_NUM_15 
 #define LCD_NUM_ROWS 2
 #define LCD_NUM_COLS 16
 #define LCD_ADDR 0x27 //! check with i2c_tools   
