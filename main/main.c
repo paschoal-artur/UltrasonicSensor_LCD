@@ -76,7 +76,7 @@ void teste_ultrasom (void *pvParameters)
             lcd_print(&lcd, buffer);
         }
         
-        vTaskDelay(pdMS_TO_TICKS(500));
+        vTaskDelay(pdMS_TO_TICKS(500)); //!Delay provavelmente esta errado, alterar para 3000ms
     }
 }
 
